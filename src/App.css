@@ -1,0 +1,900 @@
+.dark-mode {
+  background-color: #121212;  
+  color: #f0f0f0;            
+}
+
+.dark-mode .App {
+  background-color: #1e1e1e; 
+  color: #f0f0f0;
+  box-shadow: none; 
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #444;
+  color: #fff;
+}
+.dark-mode button:hover {
+  background-color: #555;
+}
+
+.dark-mode select,
+.dark-mode input[type="text"],
+.dark-mode input[type="number"] {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.dark-mode .saved-team {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+}
+
+.dark-mode .confirmation-dialog {
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+}
+
+.dark-mode .loomian-editor {
+  background-color: #2a2a2a; 
+  color: #f0f0f0; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .input-group,
+.dark-mode .input-group-moves {
+  color: #f0f0f0; 
+  border-radius: 5px;
+}
+
+.dark-mode .input-group select,
+.dark-mode .input-group input[type="text"],
+.dark-mode .input-group input[type="number"] {
+  background-color: #444; 
+  color: #fff; 
+  border: 1px solid #555; 
+}
+
+.dark-mode .input-group select:focus,
+.dark-mode .input-group input[type="number"]:focus {
+  border-color: #777;
+}
+
+.dark-mode .input-group-moves select,
+.dark-mode .input-group-moves input {
+  background-color: #444;
+  color: #fff; 
+}
+
+.dark-mode .stat-item {
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.dark-mode .stat-item input[type="number"] {
+  background-color: #555; 
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.dark-mode .tp-slider {
+  background-color: #555; 
+}
+
+.dark-mode .move-details {
+  color: #f0f0f0; 
+}
+
+.dark-mode .move-details span {
+  background-color: #555; 
+  color: white
+}
+
+.dark-mode .button-group button {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark-mode .button-group button:hover {
+  background-color: #666; 
+}
+
+.dark-mode .loomian-dropdown {
+  background-color: #333; 
+  color: #f0f0f0; 
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .loomian-dropdown .dropdown-header {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dark-mode .loomian-dropdown .dropdown-header:hover {
+  background-color: #555; 
+}
+
+.dark-mode .loomian-dropdown .dropdown-menu {
+  background-color: #2a2a2a; 
+  color: #f0f0f0; 
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  max-height: 300px;
+  overflow-y: auto; 
+}
+
+.dark-mode .loomian-dropdown .dropdown-search {
+  background-color: #444; 
+  color: #fff; 
+  border: 1px solid #555;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.dark-mode .loomian-dropdown .dropdown-search::placeholder {
+  color: #bbb; 
+}
+
+.dark-mode .loomian-dropdown .dropdown-options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dark-mode .loomian-dropdown .dropdown-option {
+  padding: 8px;
+  margin: 4px 0;
+  background-color: #333; 
+  color: #f0f0f0; 
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dark-mode .loomian-dropdown .dropdown-option:hover {
+  background-color: #444; 
+}
+
+.dark-mode .loomian-dropdown .dropdown-no-options {
+  color: #aaa; 
+  padding: 10px;
+  text-align: center;
+}
+
+.dark-mode .loomian-container-teambuild {
+  color: #ffffff;
+}
+
+.dark-mode .teambuilder-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dark-mode .teambuilder-editor .loomian-header,
+.dark-mode .teambuilder-editor .loomian-builder {
+  width: 100%;
+  max-width: 800px;
+  padding-top: 5px;
+}
+
+.dark-mode .teambuilder-editor .loomian-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a2a2a;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .teambuilder-editor .loomian-builder {
+  position: relative;
+  z-index: 1;
+  margin-top: -10px;
+  width: 100%;
+}
+
+.dark-mode body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;  
+  color: #f0f0f0;  
+  text-align: center;
+}
+
+.dark-mode .changelog-overlay {
+  background: rgba(0, 0, 0, 0.8); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dark-mode .changelog-content {
+  background: #333333; 
+  color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.dark-mode .changelog-content h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.dark-mode .changelog-content pre {
+  padding: 10px;
+  border-radius: 5px;
+  color: #f0f0f0;
+  overflow-x: auto; 
+}
+
+.dark-mode .changelog-content button {
+  padding: 10px 20px;
+  background: #555555; 
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dark-mode .changelog-content button:hover {
+  background: #666666;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #333;
+}
+
+#navbar button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+#navbar button:hover {
+  background-color: #555;
+}
+
+.App {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  margin: auto;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.loomian-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 50px 20px 50px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-team {
+  border: 2px solid #007bff; 
+}
+
+.loomian {
+  display: flex;
+  align-items: center;
+}
+
+.loomian div {
+  margin: 0 10px;
+}
+
+select {
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-left: 50px;
+  margin-top: 10px;
+  width:60%;
+}
+
+.result {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.team-effects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team-weaknesses,
+.team-resistances,
+.unresisted-types {
+  text-align: center;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.watermark a {
+  margin-right: 5px;
+}
+
+.youtube-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.watermark span {
+  color: white;
+  font-size: 14px;
+}
+
+.coverage-results {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coverage-category {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+@media (max-width: 916px) {
+  .App {
+    zoom: 75%;
+  }
+}
+
+@media (max-width: 704px) {
+  .App {
+    zoom: 50%;
+  }
+}
+
+.move-selector {
+  margin: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.search-results {
+  margin: 20px;
+}
+
+.move-selector {
+  margin: 10px;
+}
+
+.move-selector input {
+  width: 200px;
+  padding: 5px;
+}
+
+.checkbox-container {
+  display: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  font-size: 16px;
+}
+
+.loomian-editor {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.loomian-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.type-badges {
+  display: flex;
+  gap: 5px;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #e0e0e0;
+  font-size: 14px;
+}
+
+button {
+  margin: 5px;
+}
+
+.loomian-container {
+  border: 2px solid #007bff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.loomian-container img {
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.saved-team {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.delete-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.confirmation-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.message {
+  color: green;
+  font-weight: bold;
+}
+
+.loomian-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.loomian-with-item {
+  position: relative;
+  display: inline-block;
+}
+
+.loomian-icons img {
+  width: 70px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.loomian-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25px !important;
+  height: 25px !important;
+  object-fit: cover;
+}
+
+.loomian-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.loomian-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.loomian-editor .input-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.loomian-editor .input-group label {
+  width: 150px;
+}
+
+.loomian-editor input[type="text"], .loomian-editor select {
+  width: 100%;
+}
+
+.loomian-editor .stats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loomian-editor .tp-up-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.loomian-editor .label {
+  width: 230px; 
+  text-align: center;
+  font-weight: bold;
+  padding-left: 55px; 
+}
+
+.loomian-editor .stat-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.loomian-editor .stat-item span {
+  width: 120px;
+  display: inline-block;
+}
+
+.loomian-editor .tp-slider {
+  flex: 1; 
+  max-width: 340px; 
+  margin-right: 10px; 
+}
+
+.loomian-editor .tp-number, .loomian-editor .up-number {
+  width: 80px; 
+  text-align: center; 
+}
+
+.loomian-editor input[type="number"] {
+  width: 80px; 
+}
+
+
+.loomian-editor .tp-number {
+  margin-right: 10px;
+}
+
+.loomian-editor .tp-slider {
+  margin-right: 10px;
+}
+
+.loomian-container-teambuild {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+.light-mode .teambuilder-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
+}
+
+.light-mode .teambuilder-editor .loomian-header,
+.light-mode .teambuilder-editor .loomian-builder {
+  width: 100%;
+  max-width: 800px; 
+  padding-top: 5px;
+}
+
+.light-mode .teambuilder-editor .loomian-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9; 
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.light-mode .teambuilder-editor .loomian-builder {
+  position: relative;
+  z-index: 1;
+  margin-top: -10px; 
+  width: 100%; 
+}
+
+
+.secret-ability-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.gender-icon {
+  display: inline-block;
+  width: 30px;
+  height: 24px; 
+  border-radius: 50%;
+  line-height: 24px; 
+  text-align: center;
+  color: white; 
+  font-size: 16px; 
+}
+
+.gender-icon.male {
+  background-color: blue;
+}
+
+.gender-icon.female {
+  background-color: rgb(255, 0, 255);
+}
+
+.gender-icon.ungendered {
+  background-color: green;
+}
+
+.input-group-moves {
+  margin-bottom: 1rem;
+}
+
+.input-group-moves label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-group-moves select {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.move-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.move-details span {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 0.8rem;
+}
+
+.move-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.move-row select {
+  margin-right: 1rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.move-row .move-details {
+  flex: 2;
+}
+
+#last-updated-overlay {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.changelog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.changelog-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+.changelog-content h2 {
+  margin-top: 0;
+}
+
+.changelog-content pre {
+  text-align: left;
+  white-space: pre-wrap;
+  margin: 10px 0;
+}
+
+.changelog-content button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.changelog-content button:hover {
+  background: #0056b3;
+}
+
+.loomian-dropdown {
+  position: relative;
+  width: 200px;
+  margin: 0 auto; 
+}
+
+.dropdown-header {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: left; 
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-search {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.dropdown-options {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-no-options {
+  padding: 10px;
+  color: #999;
+  text-align: center;
+}
